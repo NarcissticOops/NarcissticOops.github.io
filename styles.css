@@ -1,0 +1,47 @@
+
+
+
+body {
+    background-image: url("giphy.gif");
+
+}
+
+h1 {
+    text-align: center;
+    color: darkturquoise;
+    font-size: 60px;
+    font-family:"Courier New", Courier, monospace;
+
+}
+
+h2{
+  text-align: center;
+  color: chartreuse;
+  font-size: 40px;
+  font-family:"Courier New", Courier, monospace;
+
+
+}
+
+
+p {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: 30px;
+    font-family:"Courier New", Courier, monospace;
+
+}
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+li{
+  text-align: center;
+  font-size: 24px; font:"Courier New"
+
+
+
+}
