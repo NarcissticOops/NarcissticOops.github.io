@@ -3,6 +3,7 @@
 
 body {
     background-image: url("giphy.gif");
+    background-size: cover;
 
 }
 
@@ -34,7 +35,9 @@ p {
 img{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 30%;
+    border-radius: 80%;
+    clear: right;
 
 }
 
