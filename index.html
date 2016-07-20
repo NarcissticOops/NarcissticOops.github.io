@@ -4,14 +4,28 @@
 
         <head>
             <link rel="stylesheet" href="styles.css">
+            <script>
+        
+                function myFunction(){
+                var img = document.getElementById("image");
+                var url1 = "c4.gif";
+                var url2 = "lh.gif";
+                if(img.src.match(url1)){
+                    img.src=url2;
+                }else{
+                    img.src= url1;
+                }
+            
+        }
+            </script>
         </head>
         <title>Chiiiiii</title>
         <body>
 
             <h1>My journey through the Matrix</h1>
 
-            <img src="shot.png" alt="Pygame" width="500" height="400">
-
+            <img src="c4.gif" id="image"  width="500" height="400">
+            <button id="btn" onclick="myFunction()">Click me!</button> 
             <p></p>
 
             <div id ="aboutMe">
